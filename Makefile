@@ -6,7 +6,7 @@ PLIST=keylogger.plist
 INSTALLDIR=/usr/local/bin
 
 all: $(SOURCES)
-	mkdir bin
+	mkdir -p bin
 	$(CC) $(SOURCES) $(CFLAGS) -o $(EXECUTABLE)
 clean:
 	rm $(EXECUTABLE)
