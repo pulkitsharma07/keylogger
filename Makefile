@@ -10,3 +10,4 @@ all: $(SOURCES)
 	$(CC) $(SOURCES) $(CFLAGS) -o $(EXECUTABLE)
 clean:
 	rm $(EXECUTABLE)
+
